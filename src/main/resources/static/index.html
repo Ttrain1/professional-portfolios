@@ -2,17 +2,18 @@
 <html>
 <head>
 	<title>Lenhart Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 
 </head>
 <body>
+	<div class="container">
 	<header>
 		<h1>Thomas Lenhart</h1>
-		<nav>
+		<nav class="navigation">
 			<ul>
-				<li><a href="#aboutMe">About</a></li>
+				<li><a href="#aboutMe">About,</a></li>
 				<li><a href="#project">Projects</a></li>
 			</ul>
 		</nav>
@@ -20,39 +21,46 @@
 
 	<main>
 		
-		<img src="image/thomas-headshot.jpg">
 
-		<section class="aboutMe">
+		<section id="aboutMe" class="aboutMe">
 		
+			<div class="picture">
+				<img src="image/thomas-headshot.jpg">
+			</div>
+
+			<div>
 			<h3>About Me</h3>
-			<p class="biograph"></p>
-			<p class="contact"></p>
-			<p class="networking"></p>
-			<p class="skills"></p>
+			<p class="info"> I am a junior software developer  who used to work in the foodservice industry for the past three years. recent I made a change in careers by going to “We Can Code IT”s” tech boot camp. Ever since I been excited to learn anything and everything about software development.</p>
 			
+			<p class="info"> <strong>Email:</strong> lenhart.thomas10@gmail.com <br> <strong>Phone:</strong> (740)-815-0389 <br>
+			<a href="https://github.com/Ttrain1">github.com/ttrain1</a> <br> <a href="https://www.linkedin.com/in/thomas-lenhart-961814170/">						  linkedin.com/in/thomas-lenhart</a></p>
+			<p class="skills">Java  •  JavaScript  •  JQuery  •  MVC •  HTML5  •  CSS3
+							  Object Oriented Programming (OOP)  •  Responsive Design / Mobile  •  Structured Query Language (SQL)
+							  Transactional Databases / MS SQL  •  Source Control / Git/ GitHub</p>
+			</div>
 		
 		</section>
 
-		<section class="project">
+		<section id="project" class="project">
 		
 			<h3>Projects</h3>
 
 			<article>
-				<h4></h4>
-				<img src="">
-				<p class="skills__used"></p>
+				<h4><a href="https://github.com/Ttrain1/virtual-pet">Virtual Pet</a> </h4>
+				<img src="image/dean-cat.jpg">
+				<p class="skills__used">Java • OOP • Source Control / Git/ GitHub</p>
 			</article>
 		
 			<article>
-				<h4></h4>
-				<img src="">
-				<p class="skills__used"></p>
+				<h4><a href="https://github.com/Ttrain1/virtual-pet-shelter">Virtual Pets Shelter</a></h4>
+				<img src="image/dean-zeno.jpg">
+				<p class="skills__used">Java • OOP • Source Control / Git/ GitHub</p>
 			</article>
 		
 			<article>
-				<h4></h4>
-				<img src="">
-				<p class="skills__used"></p>
+				<h4><a href="https://github.com/Ttrain1/virtual-pet-AMOK">Virtual Pet AMOK</a></h4>
+				<img src="image/dean-amok.jpg">
+				<p class="skills__used">Java • OOP • Source Control / Git/ GitHub</p>
 			</article>
 		
 		</section>
@@ -62,6 +70,7 @@
 	<footer>
 		<small>&copy; 2018</small>
 	</footer>
+	</div>
 </body>
 
 </html>
